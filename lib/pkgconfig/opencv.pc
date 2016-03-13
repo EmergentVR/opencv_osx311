@@ -1,0 +1,14 @@
+# Package Information for pkg-config
+
+prefix=/Users/fcoulombe/src/MobiusXPlatform/third-party/temp/opencv_emergent/build/mac-install
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir_old=${prefix}/include/opencv
+includedir_new=${prefix}/include
+
+Name: OpenCV
+Description: Open Source Computer Vision Library
+Version: 3.1.0
+Libs: -L${exec_prefix}/lib -lopencv_world
+Libs.private: -framework OpenCL -L/usr/lib -lbz2 -framework VideoDecodeAcceleration -framework QTKit -framework QuartzCore -framework AppKit -lavcodec -lavformat -lavutil -lswscale -lavresample -framework Cocoa
+Cflags: -I${includedir_old} -I${includedir_new}
