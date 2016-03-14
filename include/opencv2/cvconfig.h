@@ -69,13 +69,13 @@
 /* #undef HAVE_EIGEN */
 
 /* FFMpeg video library */
-#define HAVE_FFMPEG
+/* #undef HAVE_FFMPEG */
 
 /* ffmpeg's libswscale */
-#define HAVE_FFMPEG_SWSCALE
+/* #undef HAVE_FFMPEG_SWSCALE */
 
 /* ffmpeg in Gentoo */
-#define HAVE_GENTOO_FFMPEG
+/* #undef HAVE_GENTOO_FFMPEG */
 
 /* Geospatial Data Abstraction Library */
 /* #undef HAVE_GDAL */
